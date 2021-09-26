@@ -1,0 +1,99 @@
+<!DOCTYPE html> <!--본인 소개 웹페이지 작성하기_웹프로그래밍 01분반 2016470 배금빈-->
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geumbin's Web Site</title>
+</head>
+<body>
+    <header>
+        <h1>Geumbin's Web</h1>
+        <hr color="red">
+        <nav>
+            <a href="./index.html" target="_self">Home</a> &nbsp;&nbsp;&nbsp;
+            <a href="./about.html" target="_self">About</a> &nbsp;&nbsp;&nbsp;
+            <a href="./profile.html" target="_self">Profile</a> &nbsp;&nbsp;&nbsp;
+            <a href="./portfolio.html" target="_self">Portfolio</a> &nbsp;&nbsp;&nbsp;
+            <a href="./contact.html" target="_self">Contact</a>
+        </nav>
+    </header>
+    <hr>
+    <section>
+        <div id="login">
+            <form action = "#" method = "POST">
+                아이디 : <input type="text" name="name"> <br>
+                비밀번호 : <input type="password" name="pass" id="pass"> <br>
+                <input type="submit" value="확인">
+                <input type="reset" value="취소">
+            </form>
+        </div>
+        <div id="audio">
+            <h2> &lt;좋아하는 음악&gt; </h2>
+            <audio autoplay loop src = "./media/music01.mp3" controls ></audio> <!--Ratatouille's Kitchen - Carmen María and Edu Espinal-->
+        </div>
+        <hr>
+        <div id="goal">
+            <h2>2021년 목표</h2>
+            <ul>
+                <li>토익 점수 800점 이상</li>
+                <li>운동 습관 만들기</li>
+                <li>전산회계 1급 자격증 취득</li>
+            </ul>
+        </div>
+        <div id="to_do">
+            <h2> 매일 해야할 일</h2>
+            <table border ="1">
+                <tr>
+                    <th>&nbsp;&nbsp;영역&nbsp;&nbsp;</th>
+                    <th>&nbsp;&nbsp;내용&nbsp;&nbsp;</th>
+                </tr>
+                <tr>
+                    <th>&nbsp;&nbsp;운동&nbsp;&nbsp;</th>
+                    <th>&nbsp;&nbsp;2km 걷기&nbsp;&nbsp;</th>
+                </tr>
+                <tr>
+                    <th>&nbsp;&nbsp;수분 섭취&nbsp;&nbsp;</th>
+                    <th>&nbsp;&nbsp;물 5컵 마시기&nbsp;&nbsp;</th>
+                </tr>
+                <tr>
+                    <th>&nbsp;&nbsp;영어&nbsp;&nbsp;</th>
+                    <th>&nbsp;&nbsp;토익 빈출 단어 30개 암기&nbsp;&nbsp;</th>
+                </tr>
+                <tr>
+                    <th>복습</th>
+                    <th>1시간 이상 복습</th>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <hr>
+        <div id="picture">
+            <h2>나의 사진</h2>
+            <img src = "./images/mypic01.jpg" alt = "mypic01" width = "270px" height="380px"/>
+            <img src = "./images/mypic02.jpg" alt = "mypic02" width = "270px" height="380px"/>
+        </div>
+        <br>
+        <div id="food">
+            <h2> 가장 좋아하는 음식, 카레 </h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5jVwPV1WBAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+            <br><br>
+            <a href="#audio">좋아하는 음악으로 이동</a>
+        </div>
+        <br>
+        <hr>
+        <div id="move">
+            <h2>연락처</h2>
+            <iframe src="contact.html" frameborder="0" width="70%" height = "240px">
+                지원되지 않는 브라우저입니다. <!--iframe이 지원되지 않을 때 표시-->
+            </iframe>
+        </div>
+    </section>
+    <br><br><br>
+    <hr>
+    <br><br><br>
+    <footer> Copyright &copy; GEUMBIN . All Rights Reserved. </footer>
+</body>
+</html>
