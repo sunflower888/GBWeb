@@ -207,7 +207,7 @@ h2{
     height: 300px;
     width:200px;
 }
-#web_plan div, #web_design div, #cha_design div{
+#web_plan01, #web_design01, #cha_design01{
     display:flex;
     margin:0px;
     padding:0px;
