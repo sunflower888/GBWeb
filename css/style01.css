@@ -194,7 +194,7 @@ h2{
     z-index: -1;
 }
 .my_painting{
-    position:flex;
+    display:flex;
     margin:0px;
     padding:0px;
 }
@@ -208,7 +208,7 @@ h2{
     width:200px;
 }
 #web_plan div, #web_design div, #cha_design div{
-    position:flex;
+    display:flex;
     margin:0px;
     padding:0px;
 }
