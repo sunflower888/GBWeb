@@ -1,0 +1,228 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 150px;
+    background-color:  #364DB1;
+    position: relative;
+}
+header h1{
+    color:white;
+    font-weight: bold;
+    position: relative;
+    left:60px;
+    top:30px;
+    
+}
+.second_h1{
+    color:#F5C635;
+    font-weight: bold;
+    position: absolute;
+    left:630px;
+    top: 50px;
+}
+#header p{
+    color:white;
+}
+#header p span{
+    color:white;
+}
+#header a span{
+    color:#F5C635;
+}
+#header img{
+    height: 80px;
+    width: 80px;
+    position:absolute;
+    left: 550px;
+    bottom: 35px;
+}
+footer{
+    background-color:  #9D9FF2;
+}
+footer h4{
+    font-weight: bold;
+}
+article div:not(#fav_color){
+    margin: 10px;
+    padding:10px;
+    background-color: #F5F1FF;
+    /*border: 1px solid gray;*//*opacity: 1; 완전 투명*/
+}
+aside div{
+    margin: 10px;
+    padding:10px;
+    background-color: #F4F9FF;
+    /*border: 1px solid gray;*/
+}
+div {
+    margin: 10px;
+    padding:10px;
+}
+#go_top img{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    bottom : 30px;
+    right: 30px
+}
+.goal_achi{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.footer_flex{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.right_menu{
+    display: inline-block;
+    position: absolute; /*부모 값의 상대적 위치*/
+    right: 20px;
+    top:0px;
+    margin:0px;
+}
+article{
+    background-color: #CEC4F2;
+}
+aside{
+    background-color: #C4CDF5;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    border : solid 2px gray;
+}
+nav ul{
+    text-align: center;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    padding: 10px 15px;
+    letter-spacing: 2px;
+    color:white;
+}
+nav ul li:hover{
+    background-color: #F5C635;
+    border: 2px dashed #F25218; 
+}
+nav li a:hover{
+    color:#F25218;
+}
+nav{
+    position: sticky;
+    border-top :2px dashed #F25218;
+    border-bottom : 2px dashed #F5C635;
+    background-color: #233273;
+    top: 0px;
+    z-index: 2;
+}
+.nav_bar{
+    background-color: #F4F9FF;
+    position:sticky;
+    top: 70px;
+}
+.nav_bar p{
+    font-size: large;
+    background-color: #364DB1;
+    color:#F5C635;
+    padding-left: 5px;
+}
+.nav_bar ul{
+    padding-left:8px;
+}
+.nav_bar ul li{
+    list-style-type:none;
+    margin-top: 3px;
+    padding: 3px;
+}
+.nav_bar li:hover{
+    background-color: #9D9FF2;
+    color: white;
+}
+.link ul li{
+    list-style-type: square;
+}
+.login p{
+    font-size: large;
+    font-weight: bold;
+    color:#233273;
+}
+.link{
+    position:sticky; /*위치를 정해 주지 않으면 작동 안함*/
+    top: 70px;
+}
+.link p{
+    font-size: large;
+    font-weight: bold;
+    color:#233273;
+}
+.link ul{
+    padding-left: 30px;
+    padding-top: 0px;
+}
+.Contact p{
+    color:white;
+}
+.copyright{
+    color:#233273;
+}
+h2{
+    color:#364DB1;
+    font-weight: bold;
+}
+.fav_movie_flex{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+#fav_color{
+    position:relative;
+    z-index: 1;
+}
+.fav_col_bg{
+    background-image: url(../images/mypic06.jpg);
+    background-position: center;
+    position:absolute;
+    top:-10px; right:-10px;
+    width:100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: -1;
+}
+.my_painting{
+    position:flex;
+    margin:0px;
+    padding:0px;
+}
+.my_painting img{
+    height: 150px;
+    width: 150px;
+    padding-right:10px;
+}
+#web_plan img, #web_design img{
+    height: 300px;
+    width:200px;
+}
+#web_plan div, #web_design div, #cha_design div{
+    position:flex;
+    margin:0px;
+    padding:0px;
+}
+#book div{
+    border:2px dashed #9D9FF2;
+}
+#book h4{
+    font-weight: bold;
+    color: #364DB1;
+}
+#book span{
+    color:#9D9FF2
+}
+.cha_design01 img{
+    height: 100px;
+    width: 100px;
+}
